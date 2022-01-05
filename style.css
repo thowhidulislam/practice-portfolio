@@ -12,11 +12,15 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 35px;
+}
+
+section {
+    display: flex;
+    margin-bottom: 150px;
 }
 
 .top-banner {
-    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -40,4 +44,10 @@ h2 {
     padding: 10px 40px;
     font-weight: 700;
     border-radius: 5px;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
